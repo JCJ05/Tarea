@@ -38,3 +38,4 @@ C:\Users\Julio\OneDrive - Universidad de San Martin de Porres\Documentos\GitHub\
 C:\Users\Julio\OneDrive - Universidad de San Martin de Porres\Documentos\GitHub\Tarea\Laboratorio\obj\Debug\net5.0\Laboratorio.pdb
 C:\Users\Julio\OneDrive - Universidad de San Martin de Porres\Documentos\GitHub\Tarea\Laboratorio\obj\Debug\net5.0\Laboratorio.genruntimeconfig.cache
 C:\Users\Julio\OneDrive - Universidad de San Martin de Porres\Documentos\GitHub\Tarea\Laboratorio\obj\Debug\net5.0\Laboratorio.csproj.CopyComplete
+C:\Users\Julio\OneDrive - Universidad de San Martin de Porres\Documentos\GitHub\Tarea\Laboratorio\obj\Debug\net5.0\Razor\Views\Producto\Index.cshtml.g.cs

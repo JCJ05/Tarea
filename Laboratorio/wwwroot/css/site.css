@@ -1,71 +1,204 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+﻿html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
+.container {
+
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.img {
+ 
+  max-width: 100%;
+
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+
+/* SECCION HEADER */
+
+.fondo {
+
+   background-image: url(../img/Portada-Facebook-PS3.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   height: 50rem;
+   position: relative;
+
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
+.fondo__total {
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
   position: absolute;
-  bottom: 0;
   width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+
+}
+
+.fondo__encabezado {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.fondo__encabezado__titulo {
+
+   font-size: 3rem;
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+.fondo__encabezado__navegacion a {
+
+   color: white;
+   font-size: 2rem;
+   text-decoration: none;
+   margin-right: 2rem;
+
+}
+
+.fondo__cuerpo {
+
+  text-align: center;
+
+}
+
+.fondo__cuerpo__titulo {
+  
+  font-size: 2.8rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+
+}
+
+.fondo__cuerpo__texto {
+
+  font-size: 2rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/****** SECCION FORMULARIO ******/
+
+.form__legend {
+
+  font-size: 3rem;
+
+}
+
+.alinear {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+
+.alinear__div {
+
+  margin-bottom: 2rem;
+
+}
+
+.alinear__div label {
+
+   font-size: 2rem;
+
+}
+
+.alinear__div input {
+   
+   display: block;
+   width: 40rem;
+   height: 3rem;
+   border: none;
+   border: 1px solid gray;
+   border-radius: 10px;
+   appearance: none;
+   background-color: beige;
+   font-size: 1.5rem;
+   
+
+}
+
+.alinear__div input ::placeholder {
+ 
+   color: white;
+
+}
+
+fieldset {
+
+  border-radius: 2rem;
+
+}
+
+button {
+ 
+  border-radius: 2rem;
+  background-color: aqua;
+
+}
+
+
+/*/ SECCION MAIN /*/
+
+.grid {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+
+}
+
+.grid img {
+ 
+  width: 100%;
+ 
+
+}
+
+.grid p {
+
+  font-size: 2rem;
+
+}
+
+.margen {
+
+  margin: 2rem 0 2rem 0;
+
+}
+
+
+
+/******** SECCION FOOTER ********/
+
+
+.fondo__footer {
+
+  background-color: black;
+  padding: 1.8rem;
+  margin-top: 3rem;
+
 }

@@ -1,0 +1,44 @@
+@model Laboratorio.Models.Producto
+@{
+    ViewData["Title"] = "Simulacion Producto";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+
+   <fieldset class="container">
+    
+    <legend class="form__legend">Formulario de Compras</legend>
+
+    <form class="alinear" asp-controller="Producto" asp-action="Calcular">
+
+        <div class="alinear__div">
+           <label asp-for="nombre">Nombre: </label>
+           <input asp-for="nombre" type="text" placeholder="Nombre del Producto">
+        </div> 
+
+          <div class="alinear__div">
+           <label asp-for="cantidad">Cantidad: </label>
+           <input asp-for="cantidad" type="number" placeholder="Cantidad A comprar">
+        </div> 
+
+         <div class="alinear__div">
+           <label asp-for="precio">Precio: </label>
+           <input asp-for="precio" type="text" placeholder="Precio del Producto">
+        </div> 
+          
+          <div>
+
+            <button  style="font-size: 20px;" type="submit">Calcular Pago</button>
+
+          </div>
+
+    </form>
+
+       <h1>@ViewData["Pago"]</h1>
+
+    </fieldset>
+   
+
+</div>
